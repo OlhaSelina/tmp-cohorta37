@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 5</title>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="header-footer">
+          <div class="header-footer-title">TechCity</div>
+          <div class="header-menu" >
+            <div class="menu-size"><a href="" 
+              target="_blank" 
+              rel="noopener noreferrer">About Us </a></div>
+            <div class="menu-size"><a href="" 
+              target="_blank" 
+              rel="noopener noreferrer">Team</a></div>
+            <div class="menu-size"><a href="" 
+              target="_blank" 
+              rel="noopener noreferrer">Projects</a></div>
+            <div class="menu-size"><a href="" 
+              target="_blank" 
+              rel="noopener noreferrer">FAQ</a></div>
+          </div>
+        </div>
+        <div class="white"> </div>
+      </header>
+      <div class="page-container">
+        <div class="home-teams">
+          <div class="card">
+            <img src="./images/Austin Adam Young.jpg" alt="photo_Austin_Adam_Young" title="Austin Adam Young">
+            <h2>CEO</h2> 
+            <h3>Austin Adam Young</h3>
+          </div>
+          <div class="card">
+            <img src="./images/Kayla Brianna Wilson.jpg" alt="photo_Kayla_Brianna_Wilson" title="Kayla Brianna Wilson">
+            <h2>Head of Sales <br> Department</h2>
+            <h3>Kayla Brianna Wilson</h3>
+          </div>
+          <div class="card">
+            <img src="./images/Nathaniel Nicholas Morgan.jpg" alt="photo_Nathaniel_Nicholas_Morgan" title="Nathaniel Nicholas Morgan">
+            <h2>Head of Development<br> Department</h2>
+            <h3>Nathaniel Nicholas Morgan</h3>
+          </div>
+          <div class="card">
+            <img src="./images/Mia Katherine Washington.jpg" alt="photo_Mia_Katherine_Washington" title="Mia Katherine Washington">
+            <h2>Marketing Director</h2>
+            <h3>Mia Katherine Washington</h3>
+          </div>
+          <div class="card">
+            <img src="./images/Timothy Jack Harris.jpg" alt="photo_Timothy_Jack_Harris" title="Timothy Jack Harris">
+            <h2>Project Manager</h2>
+            <h3>Timothy Jack Harris</h3>
+          </div>
+          <div class="card">
+            <img src="./images/Zoe Taylor Jackson.jpg" alt="photo_Zoe_Taylor_Jackson" title="Zoe Taylor Jackson">
+            <h2>Business analyst</h2>
+            <h3>Zoe Taylor Jackson</h3>
+          </div>
+        </div>
+        <div class="form-contact">
+          <div class="fc-bordered">
+            <div class="fc-head">Contact us</div>
+            <div class="fc-body">
+              <form class="fcb-form">
+                <div class="fcb-form-element">
+                  <label for="name">Name*</label>
+                  <input 
+                    name="user_name" 
+                    placeholder="Your name" 
+                    required 
+                    id="name" 
+                    maxlength="20"> 
+                </div>
+                <div class="fcb-form-element">
+                  <label for="phone">Phone*</label>
+                  <input 
+                    name="user_phone" 
+                    placeholder="Your phone number" 
+                    required 
+                    id="phone" 
+                    type="tel"> 
+                </div>
+                <div class="fcb-form-element">
+                  <label for="email">Email*</label>
+                  <input
+                    name="user_email"
+                    placeholder="Your working email"
+                    required
+                    type="email"
+                    id="email">
+                </div>
+                <div class="fcb-form-element">
+                  <label for="location">Location</label>
+                  <select id="location" name="user_location">
+                    <option value="new-york">New York</option>
+                    <option value="los-angeles">Los Angeles</option>
+                    <option value="chicago">Chicago</option>
+                    <option value="boston">Boston</option>
+                  </select>
+                </div>
+                <div class="fcb-form-element">
+                  <label for="message">Message*</label>
+                  <textarea name="message" rows="5" cols="250" placeholder="Your message" required id="message"></textarea>
+                </div>
+                <div class="fcb-form-element check">
+                  <input 
+                  name="politic-conf"
+                  type="checkbox"
+                  id="index-checkbox"
+                  >
+                  <label class="check-agree" for="index-checkbox">I agree</label>
+                </div>
+                <div class="fcb-form-element check btn-content">
+                  <button class="btn btn-reset btn-circle" type="reset">CLEAR FORM</button>
+                  <button class="btn btn-success btn-circle">SEND REQUEST</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="white"> </div>
+        <div class="header-footer">
+          <div class="header-footer-title">TechCity</div>
+          <div class="header-menu adress">
+            <p>Borysa Hmyri str. 10 <br>
+            Kyiw <br>
+            01000
+          </p>
+          </div>
+          <div class="header-menu contact">
+            <ul>
+              <li>+38 044 337 86 64</li>
+              <li>0 800 75 10 10</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
